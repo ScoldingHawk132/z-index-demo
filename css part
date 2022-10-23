@@ -1,0 +1,45 @@
+
+
+body{
+  font-size:50px;
+}
+ 
+ 
+.container {
+  position: relative;
+}
+ 
+.black{
+  position: relative;
+  z-index: 10;
+  border: 7px solid black;
+  height: 200px;
+  margin: 40px;
+  
+}
+ 
+.green{
+  position: absolute;
+  z-index: 50;
+  background: green;
+  width: 35%;
+  left: 330px;
+  top: -20px;
+  height: 150px;
+  
+}
+ 
+.gray {
+  position: absolute;
+  z-index: 100;
+  background: gray;
+  height: 100px;
+  width: 50%;
+  left: 250px;
+  top: 50px;
+}
+
+
+
+
+
